@@ -1,0 +1,223 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    background-color:#2D2849;
+    /*padding-top: 15px;*/
+    color: #fff;
+}
+
+h1{
+    /*font-family: "Montserrat", Sans-serif;*/
+   /* font-family: 'Montserrat', sans-serif;
+   /*font-family: 'Ubuntu', sans-serif;*/
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    font-style: normal;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-weight: bold;
+    font-family: "Montserrat-Bold";
+}
+p{
+    font-size: 1.2rem;
+    line-height: 29px;
+    color: #8f8f8f;
+}
+.container-fluid
+{
+    padding: 1.8% 10% 9.7%;
+}
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 3rem;
+}
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    /* color: #fff; */
+}
+#navbar-Brand{
+    color: #fff;
+}
+.nav-item{
+    padding: 0 18px;
+}
+#n-item{
+    color: #fff;
+}
+#n-item:hover{
+    color: #6676b1;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: #fff;
+}
+
+/* Download-Buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title-Img */
+.title-img{
+    width: 90%;
+    transform: rotate(+5deg);
+    position: absolute;
+}
+/* Feature section */
+#features
+{
+    padding: 7% 15%;
+    /* font-family: "montserrat-bold";
+    font-size: 1.5rem; */
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    margin-bottom: 1rem;
+    color: #837cc3;
+}
+.icon:hover{
+    color: #a3c4ef;
+}
+.feature_icon{
+    color: #837cc3;
+    margin-bottom: 1.2rem;
+}
+.feature_icon:hover{
+    color: #98a7dd;
+}
+/* Testimonials section */
+#testimonials{
+    
+    text-align: center;
+    background-color: #1A1C23;
+    color: #fff;
+}
+.testoimonials-img{
+    width: 40%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.container_text
+{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Bold";
+}
+.carousel-item
+{
+    padding: 7% 15%;
+
+}
+/* About section */
+#about{
+    padding: 5% 13%;
+    text-align: center;
+    background-color: #1A1C23;
+}
+span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.about_h2{
+    color: #837cc3;
+}
+.outer-line{
+    width: 20%;
+    border-bottom: 4px dotted white;
+}
+.bird_info{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+/* Pricing section */
+#pricing{
+    padding: 5% 15%;
+    text-align: center;
+    /* font-family: "Montserrat"; */
+}
+#pricing_header{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #837cc3;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.pricing_col{
+    padding: 3% 1.5%;
+}
+.pricing_img{
+    width: 100%;
+}
+.h3_messages{
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+/* Media Query */
+@media (max-width:1200px)
+{
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+/* Call to Action */
+#cta{
+    padding: 9% 15%;
+    background-color:#fff;
+    
+    text-align: center;
+}
+.cta_h3{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(92, 36, 36);
+}
+.cta_img{
+    width: 80%;
+    border-radius: 80%;
+}
+
+/* Footer section */
+#footer{
+    padding: 5% 7%;
+    background-color: #2D2849;
+    text-align: center;
+}
+.anchor_tag{
+    margin: 0 1%;
+    
+}
+.footer_icon{
+    color: rgb(238, 216, 238);
+}
+.footer_icon:hover{
+    color: #837cc3;
+}
+.footer_copyrgt{
+   padding-top: 3%;
+    color: #ffff;
+    font-size: 1rem;
+}
